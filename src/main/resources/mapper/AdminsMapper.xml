@@ -9,4 +9,7 @@
     <result column="loginname" property="loginname" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
   </resultMap>
+  <select id="findadminlogin" resultMap="BaseResultMap">
+  select * from admins where loginname=#{0} and password=#{1}
+  </select>
 </mapper>
