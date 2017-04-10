@@ -243,6 +243,7 @@ img {
 <header class="site-header">
   <div class="wrapper">
     <h1 class="site-header__title">G的时间表</h1>
+    <p class="site-header__title" style="font-size: 10px">余生好长，你好难忘。</p>
   </div>
 </header>
 

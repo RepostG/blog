@@ -54,12 +54,20 @@ img {
   margin-right: auto;
 }
 
+.wrappers {
+  padding-left: 35px;
+  padding-right: 18px;
+  max-width: 1236px;
+  margin-left: auto;
+}
+
 
 /* _timeline.css */
 .timeline {
   position: relative;
   margin: 30px auto;
   padding: 60px 0;
+  
 
 }
 .timeline::before {
@@ -248,7 +256,7 @@ img {
 </header> 
 
 
-  <div class="wrapper">
+  <div class="wrappers">
   ${findid.contents }
   </div>
 <script> 
