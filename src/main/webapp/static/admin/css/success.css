@@ -1,0 +1,45 @@
+body { font-family:"����",Arial, Helvetica, sans-serif; color:#333;  font-size:14px; line-height:24px; min-width:1240px;}
+.success{
+    width:500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin:-200px 0 0 -250px;
+    position:absolute;
+    top:50%; left:50%;
+    height: 200px;
+    box-shadow: 0px 4px 5px #ccc;
+}
+.success .up{
+    display: inline-block;
+    margin-top: 40px;
+}
+.success .up a{
+    color: #3285ff;
+    text-decoration: none;
+}
+.yes{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url("../images/icon-tips.png")no-repeat -68px -200px;
+    margin-right: 30px;
+}
+.yestwo{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    background: url("../images/icon-tips.png")no-repeat -68px 0;
+    margin-right: 30px;
+}
+.success .down a{
+    display:inline-block;
+   text-decoration: none;
+    margin: 10px 20px 10px 10px;
+    color: #3285ff;
+}
+.success .down a:hover{
+    text-decoration: underline;
+}
+.cl{
+    clear: both;
+}

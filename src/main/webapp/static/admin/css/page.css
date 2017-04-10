@@ -1,0 +1,45 @@
+ .pages{
+    margin-top:10px;
+    text-align:center;
+}
+ .pages li.prev{
+    background:url(../img/page-left.png) left no-repeat;
+}
+ .pages li.next{
+    background:url(../img/page-right.png) right no-repeat;
+}
+ .pages li{
+     display:inline-block;
+}
+ .pages li+li{
+    margin-left:5px;
+}
+ .pages li a{
+    display:block;
+    padding:5px 10px;
+    line-height:20px;
+    color:#333;
+    font-size:12px;
+    border:1px #b2b2b2 solid;
+    text-decoration:none;
+}
+ .pages li a:hover, .pages li a.active{
+    color:#fff;
+    text-decoration:none;
+    background:#5a98de;
+}
+ .pages li.prev a{
+    padding:5px 10px 5px 15px;
+}
+ .pages li.next a{
+    padding:5px 15px 5px 10px;
+}
+ .pages li.prev a:hover{
+    background:url(../img/page-left.png) #5a98de left no-repeat;
+}
+ .pages li.next a:hover{
+    background:url(../img/page-right.png) #5a98de right no-repeat;
+}
+
+#PageNum .points-goods-list{ text-align: center;}
+#PageNum .points-goods-list li{ float: none; display: inline-block;}
