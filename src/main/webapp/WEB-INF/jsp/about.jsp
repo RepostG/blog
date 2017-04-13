@@ -1,5 +1,4 @@
-﻿
-<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+﻿<%@ page contentType="text/html;charset=UTF-8" language="java"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
@@ -10,7 +9,7 @@
 <meta charset="utf-8">
 <title>G的时间表</title>
 <script src="${pageContext.request.contextPath}/static/js/jquery.min.js"></script>
-<link rel="icon" href="${pageContext.request.contextPath}/static/images/ico.ico" type="image/x-icon" />
+<link rel="icon" href="${pageContext.request.contextPath}/static/images/0.gif" type="image/gif" />
 <style>
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700');
 

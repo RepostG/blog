@@ -10,7 +10,7 @@
 <meta charset="utf-8">
 <title>G的时间表</title>
 <script src="${pageContext.request.contextPath}/static/js/jquery.min.js"></script>
-<link rel="icon" href="${pageContext.request.contextPath}/static/images/ico.ico" type="image/x-icon" />
+<link rel="icon" href="${pageContext.request.contextPath}/static/images/0.gif" type="image/gif" />
 <style>
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700');
 
@@ -242,7 +242,7 @@ img {
 
 <header class="site-header">
   <div class="wrapper">
-    <h1 class="site-header__title">G的时间表</h1>
+    <h1 class="site-header__title"><a href="list.html"  style="text-decoration:none;color: #fff">G的时间表</a></h1>
     <p class="site-header__title" style="font-size: 10px">余生好长，你好难忘。</p>
   </div>
 </header>
